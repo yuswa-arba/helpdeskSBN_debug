@@ -1,0 +1,34 @@
+menu fitur_customer/master_reaktivasi.php
+
+digunakan jika ada customer yang sudah melakukan inactive ingin memakai kembali internet, maka customer harus malkukan reaktive.
+
+ada 7 (tujuh) halaman yang digunakan pada proses ini, diantaranya fitur_customer/
+->master_reaktivasi.php
+->form_reaktivasi.php
+->detail_reaktivasi.php
+->data_cabang.php
+->data_customer.php
+->data_cso.php
+->data_formulir.php
+
+fungsi:
+->mater_reaktivasi.php
+digunakan untuk menampilkan list customer yang sudah melakukan reaktive, dan sebagai tempat tombol create new, detail, edit
+
+->form_reaktivasi.php
+digunakan sebagai tempat create reaktive baru dan juga untuk menjadi tempat update data reaktive.
+
+->detail_reaktivasi.php
+untuk menampilkan detail data reaktive per proses.
+
+->data_cabang.php
+untuk mengambil data cabang yang ingin digunakan.
+
+->data_customer.php
+untuk mengambil data customer yang ingin melakukan reaktive
+
+->data_cso.php
+untuk mengambil data cso atau admin yang memproses reaktive customer.
+
+->data_formulir.php
+untuk mengambil dta formulir. tapi dbiasanya tidak digunakan

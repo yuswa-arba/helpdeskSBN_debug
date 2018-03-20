@@ -1,0 +1,60 @@
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.212
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "admin\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "admin\r"
+expect "#"
+send "config\r"
+expect "#"
+send "interface ePON 0/1:69\r"
+expect "#"
+send "description tukimin\r"
+expect "#"
+send "epon onu description tukimin\r"
+expect "#"
+send "epon onu port 1 ctc vlan mode transparent\r"
+expect "#"
+send "epon onu port 1 ctc vlan mode tag 2121\r"
+expect "#"
+send "epon onu port 1 ctc rate-limit 50000 ingress\r"
+expect "#"
+send "epon onu port 1 ctc rate-limit 50000 egress\r"
+expect "#"
+send "epon onu all-port loopback detect\r"
+expect "#"
+send "epon onu all-port storm-control mode 4 threshold 256\r"
+expect "#" 
+send "epon onu all-port ctc notify loopback\r"
+expect "#"
+send "epon onu port 2 ctc shutdown\r"
+expect "#"
+send "epon onu port 3 ctc shutdown\r"
+expect "#"
+send "epon onu port 4 ctc shutdown\r"
+expect "#"
+send "exit\r"
+expect "#"
+send "show running-config interface epon 0/1:69\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "config-onu.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "exit\r"
+expect "#"
+send "wr\r"
+expect "#"
+send "exit\r"
+expect "#"
+send "exit\r"

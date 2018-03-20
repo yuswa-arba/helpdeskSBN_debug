@@ -1,0 +1,35 @@
+menu administrasi/link_budget.php
+
+link budget hanya digunakan pada saat ada peasaangan baru, diproses sebelum mengeluarkan spk pasang. untuk mendata alat-alat apa saja yang dibutuhkan pada saat pemasangan baru. total biasanya ada 7 alat.
+Untuk submit yang ada pada link_budget hanya digunakan untuk menghasilkan session yang akan ditampilkan pada tabel yang dibawahny, yang nantinya akan disimpan pada gx_link_budget_detail. bukan untuk menyimpan barang yang dipilih.
+
+ada 7 (tujuh) halaman yang berhubungan dengan link_budget diantaranya administrasi/
+->link_budget.php
+->form_link_budget.php
+->detail_link_budget.php
+->data_barang.php
+->data_cust.php
+->data_olt.php
+->data_prospek.php
+
+fungsi:
+->link_budget.php
+untuk tempat menampilkan list link_budget yang telah diinputkan sebelumnya.
+
+->form_link_budget.php
+sebagai tempat input atau proses data link_budget yang baru dimasukkan ataupun yang akan diedit.
+
+->detail_link_budget.php
+tempat untuk menampilkan detail link budget per no. link budget.
+
+->data_cust.php
+untuk memilih customer yang ingin diproses.
+
+->data_barang.php
+untuk memilih barang-barang atau alat yang dibutuhkan oleh client untuk pemasangan.
+
+->data_olt.php
+unntuk sekarang OLT masih dibiarkan kosong
+
+->data_prospek.php
+data prospek ada di halaman bagian pelanggan baru. dan untuk sekarang masih menggunakan halaman yang di bagian pelanggan lama

@@ -1,0 +1,10 @@
+show epon inactive-onu
+Interface EPON0/1 has bound 1 inactive ONUs:
+IntfName   MAC Address    Status          LastRegTime         LastDeregTime       Last
+DeregReason   Abserttime  
+---------- -------------- --------------- ------------------- ------------------- ----
+------------- ------------
+EPON0/1:8  fcfa.f796.815d deregistered    2016.05.23.08:58:54 2016.05.23.09:02:37 powe
+r-off         7.01:21:52
+
+OLT-05-SRI#

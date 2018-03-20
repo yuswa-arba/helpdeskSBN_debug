@@ -1,0 +1,19 @@
+menu administrasi/account_statement.php
+
+untuk melihat proses billing pembayaran yang dilakukan customer.
+
+ada 3 (tiga) halaman yang digunakan pada menu ini: administrasi
+->account_statement.php
+->data_cust.php
+->account_statement_pdf.php
+
+fungsi:
+
+->account_statement.php
+berguna untuk seleksi customer, dan dari tanggal berapa data pembayaran yang ingin dilihat.
+
+->data_cust.php
+akan tampil jika form (customer number) dikilik. dan digunakan untuk mengambil customer yang data pembayarannya ingin ditampilkan.
+
+->account_statement_pdf.php
+adalah tampilan hasil dari account_s// menambil nilai/string yang ada pada urltatement.php setelah button submit diklik, dan siap untuk di print ataupun di download. jika data pembayaran tidak tampil berarti customer belum melakukan pembayaran baik hari ini maupun dari tanggal yang sudah diseleksi.

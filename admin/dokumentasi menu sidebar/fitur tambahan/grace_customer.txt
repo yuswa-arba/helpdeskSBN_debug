@@ -1,0 +1,26 @@
+menu help_desk/master_grace_customer.php
+
+digunakan jika ada customer yang telat melakukan pembayaran dan pembayaran yang dilakukan oleh customer saat telah tejadi pemblokiran, tapi belum ada info dari pak wayan / admin.
+
+ada 5 (lima) halaman yang digunakan pada peritah ini, diantaranya help_desk/
+->master_grace_customer.php
+->form_grace_customer.php
+->detail_grace_customer.php
+->data_cabang.php
+->data_customer.php
+
+fungsi:
+->master_grace_customer.php
+sebagai list, tempat untuk menampilkan data grace customer
+
+->form_grace_customer.php
+digunakan sebagai form untuk input maupun edit data grace customer.
+
+->detail_grace_customer.php
+untuk menampilkan detail data grace customer.
+
+->data_cabang.php
+untuk memilih cabang dari perusahaan sbn
+
+->data_customer.php
+untuk memilih customer yang digrace.

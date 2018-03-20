@@ -1,0 +1,6 @@
+[22-May-2014 16:49:41] PHP Warning:  include(config/configuration.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/helpdesk/public_html/beta/ajax/complaint.php on line 2
+[22-May-2014 16:49:41] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'config/configuration.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/helpdesk/public_html/beta/ajax/complaint.php on line 2
+[22-May-2014 16:49:42] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'helpdesk'@'localhost' (using password: NO) in /home/helpdesk/public_html/beta/ajax/complaint.php on line 26
+[22-May-2014 16:49:42] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/helpdesk/public_html/beta/ajax/complaint.php on line 26
+[22-May-2014 16:49:42] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/ajax/complaint.php on line 29
+[26-May-2014 14:49:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/helpdesk/public_html/beta/ajax/stats.php on line 175

@@ -1,0 +1,75 @@
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.13
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "globalbdcom\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "globalbdcom\r"
+expect "#"
+send "show epon inactive-onu\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "/usr/script/txt/OLT-01-BPN.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "exit\r"
+
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.11
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "globalbdcom\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "globalbdcom\r"
+expect "#"
+send "show epon inactive-onu\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "/usr/script/txt/OLT-02-BPN.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "exit\r"
+
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.16
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "globalbdcom\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "globalbdcom\r"
+expect "#"
+send "show epon inactive-onu\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "/usr/script/txt/OLT-03-BPN.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "exit\r"
+

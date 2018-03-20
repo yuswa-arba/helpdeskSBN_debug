@@ -1,0 +1,30 @@
+menu administrasi/spk_aktivasi.php
+
+digunakan untuk melakukan aktivasi pada customer.
+
+ada 6 (enam) halaman yang digunakan pada perintah ini,diantaranya administrasi/
+->spk_aktivasi.php
+->form_spk_aktivasi_baru.php
+->spk_aktivasi_pdf.php
+->data_pasang_baru.php
+->data_teknisi.php
+->data_marketing.php
+
+fungsi:
+->spk_aktivasi.php
+digunakan sebagai list untuk menampilkan data-data customer yang akan diaktifasi.
+
+->form_spk_aktifasi_baru.php
+sebagai media input data baru spk aktivasi dan juga sebagai tempat untuk edit data yang kemungkinan ada yang salah atau ingin dirubah.
+
+->spk_aktivasi_pdf.php
+manmapilkan detail spk aktivasi per aktivasi dalam bentuk dan format pdf.
+
+->data_pasang_baru.php
+untuk mengambil data customer yang telah melakukan pemasangan.
+
+->data_teknisi.php
+untuk mengmbil nomor dan nama teknisi yang melakukan pemsangan.
+
+->data_marketing.php
+untuk mengambil nomor dan nama dari marketing yang menjadi penyalur ke konsumen.

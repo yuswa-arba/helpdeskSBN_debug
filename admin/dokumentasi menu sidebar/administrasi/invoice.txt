@@ -1,0 +1,27 @@
+menu administrasi/invoice
+
+untuk melihat dan menginput kegiatan invoice (faktur).
+
+ada 4 (empat) halaman yang berhubungan dengan invoice, diantaranya administrasi:
+->master_invoice.php
+->form_invoice.php
+->pdf_invoice.php
+->data_cust.php
+
+fungsi:
+
+->master_invoice.php
+untuk melihat list invoice yang telah dibuat
+
+->form_invoice.php
+hanya untuk membuat invoice APBDCOM
+
+->data_cust.php
+untuk memilih user yang ingin dibuatkan invoicenya
+
+->pdf_invoice.php
+untuk melihat detail tiap transaksi invoice yang diklik.
+
+
+keterangan:
+untuk tombol edit dan hapusnya masih belum ditambahkan. jadi yang tertera di script masih tidak dipakai sama sekali.

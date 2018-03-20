@@ -1,0 +1,35 @@
+menu administrasi/master_jawab_spk_aktivasi_baru.php
+
+hampir sama dengan menu jawab_spk_pasang, yang digunakan pada saat spk aktivasi telah diinput atau diproses.
+
+ada 8 (delapan) menu yang digunakan pada halaman ini, diantaranya administrasi/
+->master_jawab_spk_aktivasi_baru.php
+->form_jawab_spk_aktivasi_baru.php
+->detail_spk_aktivasi_baru.php
+->update_alat.php
+->data_spk_aktivasi_baru.php
+->data_teknisi.php
+->data_marketing.php
+->data_barang.php
+
+fungsi:
+->master_jawab_spk_aktivasi_baru.php
+sebagai list jawaban spk aktivasi yang telah diproses sebelumnya.
+
+->form_jawab_spk_aktivasi_baru.php
+untuk melakukan proses jawaban spk aktivasi baru dan juga untuk update atau edit data jawab spk baru.
+
+->detail_spk_aktivasi_baru.php
+melihat detail data jawab spk aktivasi baru sesuai denga kode spk aktivasi.
+
+->update_alat.php
+untuk mengedit alat-alat yang akan digunakan pada saat aktivasi baru
+
+->data_spk_aktivasi_baru.php
+mengambil kode spk aktivasi yang sudah dibuat sebelumnya atau baru saja dibuat di spk aktivasi baru
+
+->data_teknisi.php
+mengambil nama tenisi yang akan melakukan pemasangan.
+
+->data_marketing.php
+untuk mengambil nama marketing pada saat pemesanan.

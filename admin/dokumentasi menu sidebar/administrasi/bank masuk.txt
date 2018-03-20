@@ -1,0 +1,27 @@
+menu administrasi/bank masuk
+
+untuk customer yang telah atau baru melakukan pembayaran yang akan diproses.
+
+ada 5 halaman yang berhubungan dengan master_banknasuk.php diantaranya administrasi/:
+->master_bankmasuk.php
+->form_bankmasuk.php
+->form_bm_detail.php
+->data_bank.php
+->data_cust.php
+
+
+fungsi:
+->master_bankmasuk.php
+untuk melihat customer yang telah melakukan pembayaran dan yang telah diinput oleh admin.
+
+->form_bankmasuk.php
+untuk mengisi data customer yang melakukan pembayran beserta dengan sarana pembayaran atau kode banknya
+
+->form_bm_detail.php
+untuk melihat detail pembarayan masing-masing customer.
+
+->data_bank.php
+untuk memilih kode bank sesuai dengan jenis pembayran yang dilakukan oleh customer.
+
+->data_cust.php
+untuk memilih customer yang telah atau baru melakukan pembayaran.

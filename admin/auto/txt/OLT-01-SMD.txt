@@ -1,0 +1,28 @@
+show epon inactive-onu
+Interface EPON0/2 has bound 3 inactive ONUs:
+IntfName   MAC Address    Status          LastRegTime         LastDeregTime       Last
+DeregReason   Abserttime  
+---------- -------------- --------------- ------------------- ------------------- ----
+------------- ------------
+EPON0/2:7  fcfa.f796.7f9b lost            N/A                 1970.01.01.00:00:20 unkn
+ow            16951.10:22:11
+EPON0/2:8  fcfa.f796.7e93 lost            N/A                 1970.01.01.00:00:20 unkn
+ow            16951.10:22:11
+EPON0/2:12 fcfa.f7d8.f245 deregistered    2016.05.27.17:19:57 2016.05.28.14:25:14 powe
+r-off         1.19:57:17
+
+Interface EPON0/4 has bound 4 inactive ONUs:
+IntfName   MAC Address    Status          LastRegTime         LastDeregTime       Last
+DeregReason   Abserttime  
+---------- -------------- --------------- ------------------- ------------------- ----
+------------- ------------
+EPON0/4:5  fcfa.f7d8.f102 deregistered    2016.05.21.11:25:59 2016.05.23.07:52:41 wire
+-down         7.02:29:50
+EPON0/4:6  fcfa.f796.0f05 lost            2016.04.12.06:42:38 2016.04.12.15:12:03 powe
+r-off         47.19:10:28
+EPON0/4:12 fcfa.f7d8.f23c lost            1970.01.01.10:08:11 2016.04.09.08:03:49 powe
+r-off         51.02:18:42
+EPON0/4:15 fcfa.f7d8.f17a deregistered    2016.05.28.11:14:44 2016.05.28.16:54:10 powe
+r-off         1.17:28:21
+
+OLT-1-SRI#

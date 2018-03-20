@@ -1,0 +1,36 @@
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.20
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "globalbdcom\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "globalbdcom\r"
+expect "#"
+send "show epon active-onu interface ePON 0/3 3\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "/usr/script/txt/xxismd.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "show epon inactive-onu interface ePON 0/3 3\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "/usr/script/txt/xxismd.txt" "a+"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "exit\r"
+

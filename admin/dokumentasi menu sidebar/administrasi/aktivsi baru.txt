@@ -1,0 +1,22 @@
+menu administrasi/kativasi baru
+
+digunakan pada saat proses jawab aktivasi sudah selesai
+
+ada 4 (empat) halaman yang digunakan pada proses ini, diantaranya administrasi/
+->master_aktivasi.php
+->form_aktivasi_proate.php
+->form_invoice_detail.php
+->data_spk_aktivasi_baru.php
+
+fungsi:
+->master_aktivasi.php
+--
+
+->form_aktivasi_proate.php
+--
+
+->form_invoice_detail.php
+--
+
+->data_spk_aktivasi_baru.php
+--

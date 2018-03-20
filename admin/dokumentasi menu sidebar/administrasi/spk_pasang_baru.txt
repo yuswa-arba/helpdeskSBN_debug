@@ -1,0 +1,38 @@
+menu administrasi/spk_pasang_baru.php
+
+digunakan untuk membuat spk setelah data alat-alat yang dibutuhkan untuk pemasangan telah diinput.
+
+adav 8 (delapan) halaman yang digunakan pada menu spk pasang, diantaranya administrasi/
+->master_spk_pasang_baru.php
+->form_spk_pasang_baru.php
+->detail_spk_pasang_baru.php
+->spk_pasang_baru_pdf.php
+->data_customer_spk_pasang.php
+->data_linkbudget.php
+->data_teknisi.php
+->data_marketing.php
+
+fungsi:
+->master_pasang_spk_baru.php
+sebagai list untuk menampilkan semua data spk pasang yang telah dibuat sebelumnya. dan untuk tempat button-button perintah yang dibutuhkan yang berkaitan dengan pembuatan spk yang baru.
+
+->form_spk_pasang_baru.php
+sebagai tempat input spk pasang yang baru dan juga tempat untuk edit spk pasang yang telah dibuat sebelumnya.
+
+->detail_spk_pasang_baru.php
+menampilkan detail dari data spk pasang baru sesuai dengan id yang dipilih.
+
+->spk_pasang_baru_pdf.php
+menampilkan spk pasang dengan format pdf, yang bisa didownload ataupun langsung diprint.
+
+->data_customer.php
+untuk mengambil data customer yang akan melakukan pemasangan baru.
+
+->data_linkbudget.php
+untuk mengambil kode link budget atau alat-alat yang dibutuhkan untuk pemsangan customer yang telah diinput sebelumnya.
+
+->data_teknisi.php
+mengambil nama teknisi yang akan melakukan pemsangan biasanya bobi.
+
+->data_marketing.php
+untuk mengambil nama marketing yang menangani customer.

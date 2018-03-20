@@ -1,0 +1,39 @@
+[22-May-2014 12:45:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/helpdesk/public_html/beta/home.php on line 126
+[22-May-2014 12:46:09] PHP Parse error:  syntax error, unexpected T_STRING in /home/helpdesk/public_html/beta/home.php on line 277
+[22-May-2014 12:46:25] PHP Parse error:  syntax error, unexpected T_STRING in /home/helpdesk/public_html/beta/config/template_v4.php on line 132
+[22-May-2014 12:47:12] PHP Fatal error:  Cannot redeclare pad_zero() (previously declared in /home/helpdesk/public_html/beta/config/template_v3.php:510) in /home/helpdesk/public_html/beta/config/template_v4.php on line 615
+[22-May-2014 13:51:35] PHP Parse error:  syntax error, unexpected ';' in /home/helpdesk/public_html/beta/config/template_v4.php on line 196
+[22-May-2014 13:58:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/helpdesk/public_html/beta/config/template_v4.php on line 121
+[22-May-2014 13:59:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/helpdesk/public_html/beta/config/template_v4.php on line 121
+[22-May-2014 14:30:30] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/agenda.php on line 88
+[22-May-2014 14:35:00] PHP Parse error:  syntax error, unexpected $end in /home/helpdesk/public_html/beta/agenda.php on line 177
+[22-May-2014 14:35:39] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/agenda.php on line 88
+[22-May-2014 14:35:39] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/agenda.php on line 104
+[22-May-2014 17:03:12] PHP Parse error:  syntax error, unexpected T_STRING in /home/helpdesk/public_html/beta/home.php on line 159
+[22-May-2014 17:52:15] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/event.php on line 10
+[22-May-2014 17:52:28] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/add_events.php on line 10
+[22-May-2014 17:52:34] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:52:40] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:52:45] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:52:55] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:53:56] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/add_events.php on line 10
+[22-May-2014 17:54:14] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:54:28] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:54:35] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/update_events.php on line 11
+[22-May-2014 17:54:46] PHP Fatal error:  Class 'PDO' not found in /home/helpdesk/public_html/beta/event.php on line 10
+[23-May-2014 16:37:10] PHP Parse error:  syntax error, unexpected '}' in /home/helpdesk/public_html/beta/form_agenda_new.php on line 493
+[26-May-2014 06:14:14] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 06:16:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 06:17:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 06:17:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 10:38:27] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 10:38:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 10:55:58] PHP Parse error:  syntax error, unexpected T_STRING, expecting ']' in /home/helpdesk/public_html/beta/config/template_v4.php on line 256
+[26-May-2014 10:56:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting ']' in /home/helpdesk/public_html/beta/config/template_v4.php on line 256
+[26-May-2014 11:01:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 11:07:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 11:11:07] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/helpdesk/public_html/beta/form_mailbox.php on line 23
+[26-May-2014 12:33:03] PHP Parse error:  syntax error, unexpected '}' in /home/helpdesk/public_html/beta/incoming.php on line 1445
+[26-May-2014 12:33:41] PHP Warning:  include(configuration/configuration.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/helpdesk/public_html/beta/incoming.php on line 11
+[26-May-2014 12:33:41] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'configuration/configuration.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/helpdesk/public_html/beta/incoming.php on line 11
+[26-May-2014 12:33:41] PHP Fatal error:  Call to undefined function logged_in() in /home/helpdesk/public_html/beta/incoming.php on line 20

@@ -1,0 +1,141 @@
+alur pembuatan invoice dari awal sampai akhir.
+
+
+=============================================
+## Mendaftarkan customer baru
+->untuk type koneksi
+menggunakan FO. karena kebanyakan dari customer menggunakan FO dan atau sesuai dengan yang tertera pada form marketing tc
+
+->nomor customer
+didapat dari form marketing yang di bawa
+
+->kode kustomer terisi secara otomatis dari inisial nama yang dimasukan.
+
+->nama perusahaan dibiarkan kosong
+
+->untuk alamat dan data diri diisi sesuai dengan data form yang telah diberikan.
+
+->contact person diisi jika jika customer melalui perantara, seperti pembantu atau yang lainnya.
+
+->email address intern dibiarkan kosong
+
+->user id diisi sendiri
+
+->password diisi sesuai dengan alamat customer
+
+->kode paket biasanya diisi sesuai dengan pembayaran yang dilakukan oleh customer. dapat dipilih melalui halaman master/kode_paket.php.
+
+->ppn => pilih include ppn
+
+->nama bank biasanya kalau customer baru menggunakan kode bank BCA TT dipilih di halaman master/data_bank.php
+
+->marketing biasanya menggunakan rizal, dapat dipilih di halaman master/data_marketing.php
+
+->no ACC justifikasi tidak diisi
+
+
+=============================================================
+## pembayaran melalui bank
+->setelah customer berhasil didaftarkan maka yang selanjutnya adalah pembayaran. diproses di administrasi/bank_bankmasuk.php
+
+->klik button create new, maka akan langsung menuju ke form bank masuk
+
+->nomer transaksi diisi secara otomatis sewaktu masuk ke halaman
+
+->data bank. untuk customer baru biasanya menggunakan bank umum. dapat dipilih di halaman data_bank.php
+yang akan muncul jika form data bank di klik.
+
+->kode customer, dipilih sesuai dengan customer yang sudah membayar atau baru melakukan pembayaran. dipilih di halaman data_cust.php jika form kode customer diklik
+
+->nama customer otomatis terpilih jika kode customer telah dipilih.
+
+->acc kredit, otomatis terpilih sesudah pilih customer.
+
+->rate diisi dengan 1.
+
+->remaks, diisi dengan keterangan.
+
+->>setelah semua terisi, tekan tombol submit. maka akan muncul form baru. setelah itu isi keternagan dengan pembayaran uasng muka. nominal sesuai dengan pembayaran, 440 yang normal dan 660 untuk dengan harga APBDCOM.
+
+->>jika pembayaran bukan untuk pemasangan pertama melainkan pembayaran yang dilakukan setiap bulannya. maka untuk data form yang ada di bawah pada halaman form_bm_detail.php hanya diisi yang nomor acc saja, jadi tidak membuat invoice
+
+
+=============================================================
+## pembayaran melalui kasir cso
+->>jika customer melakukan pembayaran melalui kasir maka prosesnya dilakukan di administrasi/kasir cso yang ada di halaman administrasi/form_kasir.php
+
+->nomor transaksi dan tanggal secara otomatis langsung terisi.
+
+->kode transaksi tinggal memilih customer yang melakukan pembayran dan nama customer akan langsung terisi.
+
+->acc cash tinggal memilih nomor akun yang tertera sesuai dengan transaksi yang dilakukan oleh customer pembayaran awal atau pembayaran tagihan per bulan.
+
+->rate diisi dengan 1. sedangkan remarks diisi dengan keterangan sesuai dengan transaksi.
+
+->setelah itu tekan tombol submit. lalu akan langsung menuju ke halaman administrasi/form_kasir_detail.php.
+
+->setelah masuk ke halaman selanjutnya, pilih uang muka 215. keterangan pembayaran uang muka nominal sesuai dengan pembayaran 440 untuk pembayaran yang normal, sedangkan 660 yang dengan AP BDCOM.
+
+
+=============================================================
+## link budget
+->>setelah administrasi bank masuk selesai, selanjutnya ke network administrasi/link budget yang ada di halaman administrasi/link_budget.php. dilakukan sebelum buat spk.
+
+->klik button add, maka akan langsung diarahkan ke halaman form_link_budget.php
+
+->cabang dan nomor link budget diisi secara otomatis.
+
+->pilih kode customer di halaman data_cust.php dengan klik form kode customer dan isi semua form yang perlu untuk diisi.
+
+->untuk form alat yang dibutuhkan biasanya ada tujuh alat yang dibutuhkan. setelah selesai isikn alatnya baru langsung di submit yang ada di dalam form alat yang dibutuhkan. maka secara otomatis datanya akan langsung masuk didalam tabel data alat yang dibutuhkan.
+
+->setelah semua data yang dibutuhkan telah terisi, langsung klik button submit.
+
+
+==============================================================
+## spk_pasang
+->>setelah di link budget, selanjutnya menuju ke menu administrasi/spk pasang yang ada di halaman administrasi/master_spk_pasang_baru.php
+
+->kode customer, pilih sesuai dengan customer yang telah didaftarkan tadi
+
+->no link budget, pilih sesuai link budget yang telah dibuat tadi.
+
+->setelah itu semuanya akan terisi secara otomatis, kevuali form teknisi. harus dipilih secara manual melalui halaman administrasi/data_teknisi.php
+
+->>setelah semua data terisi, maka langsung tekan tombol submit untuk menyimpan. dan secara otomatis data invoice akan ditambahkan. untuk invoice pemasangan.
+
+
+===============================================================
+## invoice
+->>setelah spk pasang selesai dibuat, invoice dapat dilihat di administrasi/invoice yang ada di administrasi/master_invoice.php. menampilkan list invoice yang telah dibuat.
+
+->tombol create new hanya digunakan jika ingin menambahkan invoice AP BDCOM. selain dari invoice spk pasang. setealh tombol create new diklik, langsung menuju halaman administrasi/form_invoice.php	isi title sesuai dengan yang telah dianjurkan, berhubungan dengan AP BDCOM.
+
+
+================================================================
+## jawab spk pasang
+->>setelah spk pasang selasai dibuat, maka selanjutnya adalah mengisi jawab spk pasang
+
+->isi no spk pasang dengan memilih spk yang ingin di jawab. setelah dipilih maka semua form secara otomatis terisi kecuali teknisi dan solusi.
+
+->untuk teknisi bisa langsung dipilih di halaman administrasi/data_teknisi.php
+
+->setelah itu klik radiobotton cleared, dan isi solusinya. setelah itu langsung klik submit.
+
+
+===============================================================
+## spk aktivasi
+->>setelah jawab spk selesai dibuat, selanjutnya adalah membuat spk aktivasi
+
+->isi nomor customer yang melakukan aktivasi, semua form akan secara otomatis terisi. lalu tekan submit.
+
+->>setiap membuat spk aktivasi, tidak mengeluarkan invoice kecuali proses aktivasi baru.
+
+
+================================================================
+## proses aktivasi
+->>setelah spk aktivasi, maka selanjutnya adalah proses aktivasi. isi kode customer, maka semua secara otomatis terisi kecuali ip customer, itu didapat dari MA pas proses email.
+
+->perhitungannya secara otomatis terisi sendiri.
+
+->lalu klik button submit, maka data akan langsung membuat invoice baru.

@@ -1,0 +1,34 @@
+menu fitur_customer/master_inactive.php
+
+digunakan jika customer ingin break / berhenti untuk sementara waktu dari pemakaian internet. maksimal hanya 3 bulan, lebih dari itu maka kustomer dinyatakan off atau diblok.
+
+ada 7 (tujuh) halaman yang digunakan pada perintah ini, diantaranya fitur_customer/
+->master_inactive.php
+->form_inactive.php
+->detail_inactive.php
+->data_cabang.php
+->data_customer.php
+->data_cso.php
+->data_formulir.php
+
+fungsi:
+->master_inactive.php
+digunakan untuk menampilkan list dari proses inactive yang telah diproses sebelumnya. juga sebagai tempat untuk button create dan detail inactive.
+
+->form_inactive.php
+digunakan untuk manambah atau membuat inactive baru.
+
+->detail_inactive.php
+digunakan untuk melihat data inactive per customer.
+
+->data_cabang.php
+untuk memilih dari cabang mana customer yang melakukan inactive.
+
+->data_customer.php
+untuk mangabil kode, nama, dan user ID dari customer yang mengajukan inactive
+
+->data_cso.php
+untuk mengambil nama request kepada siapa customer meminta inactive. biasanya pak rizal
+
+->data_formulir.php
+untuk mengambil data formuir. biasanya form untuk formulir tidak diisi.

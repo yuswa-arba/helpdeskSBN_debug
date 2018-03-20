@@ -1,0 +1,34 @@
+menu fitur_customer/master_off_connection.php
+
+digunakan jika customer ingin off dari pemakaian internet.
+
+ada 6 (enam) halaman yang digunakan pada proses ini, antara lain fitur_customer/
+->master_off_connection.php
+->form_off_connection.php
+->detail_off_connection.php
+->data_customer.php
+->data_cabang.php
+->data_cso.php
+->data_formulir.php
+
+fungsi:
+->master_off_connection.php
+digunakan untuk melihat data off connection yang telah terjadi dan diproses sebelumnya. dan untuk tempat tommbol create dan view detail.
+
+->form_off_connection.php
+digunakan untuk memproses off connection
+
+->detail_off_connection.php
+digunakan untuk menampilkan detail data off connection per customer.
+
+->data_customer.php
+digunakan untuk mengambil data customer yang ingin off connection.
+
+->data_cabang.php
+digunakan untuk mengambil data cabang dimana customer berada yang ingin off connection.
+
+->data_cso.php
+digunakan untuk mengambil data nama marketing atau customer request kepada siapa meminta off connection.
+
+->data_formulir.php
+biasanya tidak digunakan.

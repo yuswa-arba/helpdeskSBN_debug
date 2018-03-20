@@ -1,0 +1,35 @@
+/*CSS Sabrosus style pagination*/
+div.pagination {
+    padding:3px;
+    margin:3px;
+    text-align:center;
+    
+}
+
+div.pagination a {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #EEE;
+    
+    text-decoration: none; 
+    color: #036CB4;
+}
+div.pagination a:hover, div.pagination a:active {
+    border: 1px solid #999;
+	color: #666;
+   /* background-color: lightyellow;*/
+}
+div.pagination span.current {
+    padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #036CB4;
+	font-weight: bold;
+	background-color: #036CB4;
+	color: #FFF;
+}
+div.pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #EEE;
+	color: #DDD;
+}

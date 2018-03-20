@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Checktree Plugin Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-checktree.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/form/Simple-jQuery-Plugin-For-Checkbox-Tree-View-Checktree.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<h1 style="margin:150px 0 50px 0;">jQuery Checktree Plugin Demo</h1>
+<p>When any parent within the hierarchy is selected, their children become selected.</p>
+<ul id="tree">
+<li>
+<label>
+<input type="checkbox" />
+Level 1 - 1</label>
+</li>
+<li>
+<label>
+<input type="checkbox" />
+Level 1 - 2</label>
+<ul>
+<li>
+<label>
+<input type="checkbox" />
+Level 2 - 1</label>
+<ul>
+<li>
+<label>
+<input type="checkbox" />
+Level 3 - 1</label>
+</li>
+<li>
+<label>
+<input type="checkbox" />
+Level 3 - 2</label>
+<ul>
+<li>
+<label>
+<input type="checkbox" />
+Level 4 - 1</label>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<li>
+<label>
+<input type="checkbox" />
+Level 1 - 3</label>
+</li>
+<li>
+<label>
+<input type="checkbox" />
+Level 1 - 4</label>
+</li>
+</li>
+</ul>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery-checktree.js"></script>
+<script>
+$('#tree').checktree();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

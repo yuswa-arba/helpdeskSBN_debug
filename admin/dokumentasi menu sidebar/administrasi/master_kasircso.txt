@@ -1,0 +1,18 @@
+menu administrasi/kasir_cso.php
+
+digunakan untuk melakukan input pembayran yang dilakukan customer secara langsung ke kantor, tidak melalui transfer ke rekening bank.
+
+ada 7 (tujuh) halaman yang digunakan pada menu ini diantaranya administrasi/
+->master_kasircso.php
+->form_kasircso.php
+->form_kasir_detail.php
+->form_km_detail.php
+->form_kasmasuk.php
+->data_acc.php
+->data_cust.php
+
+fungsi:
+->master_kasir.php
+sebagai list dari setiap pembayaran yang dilakukan oleh customer melalui kasit cso.
+
+->

@@ -1,0 +1,47 @@
+Menu master/customer.php:
+
+digunakan untuk create customer, view detail customer, edit data customer, dan untuk beberapa transaksi lain yang berhubungan denga customer.
+
+ada 10 (sembilan) halaman yang digunakan: master/
+->customer.php
+->form_customer.php
+->detail_customer.php
+->resume_customer.php
+->detail_paket.php
+->../administrasi/detail_link_budget.php
+->data_paket.php
+->data_bank.php
+->data_marketing.php
+->data_acc_justifikasi.php
+
+fungsi :
+
+->customer.php
+untuk menampilkan list data customer yang terdaftar.
+
+->form_customer.php
+untuk membuat akun baru customer yang mendaftar. button submit hanya ada satu tapi ditampilkan di setiap halaman yang ada di menu form_customer.php, jadi jika klik maka langsung mengksekusi semua form yang ada di halaman tersebut.
+
+->detail_customer.php
+menampilkan detail data customer yang dipilih
+
+->resume_customer.php
+di setiap link yang tertera hanya ada satu file yang bisa di gunakan dan itu untuk menampilkan detail paket.
+
+->detail_paket.php
+menampilkan detail paket dari customer yang dipilih.
+
+->administrasi/detail_link_budget.php
+menampilkan anggaran yang dibutuhkan yang harus dibayar oleh customer.
+
+->data_paket.php
+untuk mengisi kode paket yang ada di form_customer.
+
+->data_bank.php
+untuk mengisi nama bank di form_customer.php sesuai dengan bank yang diselect.
+
+->data_marketing.php
+untuk mengisi nama marketing sesuai dengan nama yang dipilih di data_marketing yang tertera di listnya.
+
+->data_acc_justifikasi.php
+untuk mengisi justifikasi yang ada pada form_customer.

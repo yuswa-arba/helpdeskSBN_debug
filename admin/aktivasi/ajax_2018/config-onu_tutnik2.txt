@@ -1,0 +1,29 @@
+show running-config interface epon 0/1:13
+Building configuration...
+
+Current configuration:
+!
+interface EPON0/1:13
+ onu-configuration
+ description tutnik2
+  epon onu description tutnik2
+  epon onu port 1 ctc vlan mode tag 2676
+  epon onu port 1 ctc rate-limit 50000 ingress
+  epon onu port 1 ctc rate-limit 50000 egress
+  epon onu port 1 ctc notify loopback
+  epon onu port 1 loopback detect
+  epon onu port 1 storm-control mode 4 threshold 256
+  epon onu port 2 ctc shutdown
+  epon onu port 2 ctc notify loopback
+  epon onu port 2 loopback detect
+  epon onu port 2 storm-control mode 4 threshold 256
+  epon onu port 3 ctc shutdown
+  epon onu port 3 ctc notify loopback
+  epon onu port 3 loopback detect
+  epon onu port 3 storm-control mode 4 threshold 256
+  epon onu port 4 ctc shutdown
+  epon onu port 4 ctc notify loopback
+  epon onu port 4 loopback detect
+  epon onu port 4 storm-control mode 4 threshold 256
+!!onu-configuration-end
+OLT-05-BALI_config#

@@ -1,0 +1,33 @@
+menu help_desk/master_updown_connection.php
+
+untuk customer yang ingin meminta pelayanan tambahan atau mengurangi pelayanan. contoh dari internet ingin upgrade ke internet + tv atau internet + tv ke internet.
+
+ada 6 (enam) halaman yang digunakan pada proses ini, antara lain help_desk/
+->master_updown_connection.php
+->form_updown_connection.php
+->detail_updown_connection.php
+->data_cabang.php
+->data_customer.php
+->data_paket.php
+
+fungsi:
+->master_updown_connection.php
+digunakan untuk menampilkan data upgrade dan downgrade yang sudah diproses oleh cso. dan sebagai tempat button untuk create, detail, view upgrade/downgrade.
+
+->form_updown_connection.php
+digunakan create upgrade/downgrade ataupun untuk update data upgrade/downgrade
+
+->detail_updown_connection.php
+digunakan untuk menampilkan detail data proses upgrade/downgrade
+
+->data_cabang.php
+untuk memilih cabang dari perusahaan sbn
+
+->data_customer.php
+untuk memilih customer yang yang melakukan request.
+
+->data_paket.php
+digunakan untuk memilih jenis paket baru yang diinginkan oleh customer.
+
+->data_formulir.php
+untuk memilih formulir. tapi tidak dipakai.

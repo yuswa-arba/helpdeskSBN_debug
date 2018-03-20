@@ -1,0 +1,14 @@
+menu helpdesk/form_complaint.php
+
+digunakan untuk membuat spk maintenance.
+
+ada 2 (dua) halaan yang digunakan pada proses ini, antara lain helpdesk/
+->form_complaint.php
+->data_cust.php
+
+fungsi:
+->form_complaint.php
+digunakan untuk tempat form mengsi data pembuatan spk complaint, dan digunakan jika ingin update spk.
+
+->data_cust.php
+digunakan untuk mengambil data customer yang melakukan complaint.

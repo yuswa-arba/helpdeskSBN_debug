@@ -1,0 +1,10 @@
+[09-Oct-2013 03:50:09 UTC] PHP Warning:  Unknown: failed to open stream: Permission denied in Unknown on line 0
+[09-Oct-2013 03:50:09 UTC] PHP Fatal error:  Unknown: Failed opening required '/var/www/dafi/mail/1.php' (include_path='.:/usr/share/php:/usr/share/pear') in Unknown on line 0
+[09-Oct-2013 03:51:48 UTC] PHP Warning:  require_once(/var/www/dafi/mail/class.phpmailer.php): failed to open stream: Permission denied in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:51:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'class.phpmailer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:51:56 UTC] PHP Warning:  require_once(/var/www/dafi/mail/class.phpmailer.php): failed to open stream: Permission denied in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:51:56 UTC] PHP Fatal error:  require_once(): Failed opening required 'class.phpmailer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:52:52 UTC] PHP Warning:  require_once(/var/www/dafi/mail/class.phpmailer.php): failed to open stream: Permission denied in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:52:52 UTC] PHP Fatal error:  require_once(): Failed opening required './class.phpmailer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:55:46 UTC] PHP Warning:  require_once(/var/www/dafi/mail/class.phpmailer.php): failed to open stream: Permission denied in /var/www/dafi/mail/1.php on line 3
+[09-Oct-2013 03:55:46 UTC] PHP Fatal error:  require_once(): Failed opening required './class.phpmailer.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/www/dafi/mail/1.php on line 3

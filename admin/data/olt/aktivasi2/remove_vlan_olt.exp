@@ -1,0 +1,40 @@
+#!/usr/bin/expect -f
+spawn telnet 172.17.8.212
+set timeout 3
+expect "Username:"
+send "admin\r"
+expect "Password:"
+send "admin\r"
+expect ">"
+send "ena\r"
+expect "password:"
+send "admin\r"
+expect "#"
+send "config\r"
+expect "#"
+send "interface ePON 0/1\r"
+expect "#"
+send "switchport trunk vlan-allowed remove 1234\r"
+expect "#"
+send "interface g0/3\r"
+expect "#"
+send "switchport trunk vlan-allowed remove 1234\r"
+expect "#"
+send "exit\r"
+expect "#"
+send " no vlan 1234\r"
+expect "#"
+send "show vlan id 1234\r"
+expect "#"
+set i 1
+while {$i < 51} {
+set output [open "remove-vlan.txt" "w"]
+set outcome $expect_out(buffer)
+puts $output $outcome
+incr i
+}
+close $output
+expect "#"
+send "wr\r"
+expect "#"
+send "exit\r"

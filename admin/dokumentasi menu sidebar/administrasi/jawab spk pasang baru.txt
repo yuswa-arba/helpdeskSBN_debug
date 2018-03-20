@@ -1,0 +1,32 @@
+menu administrasi/jawab_spk_pasang_baru.php
+
+untuk menjawab spk pasang yang telah dibuat sebelumnya.
+
+ada 8 (delapan) halaman yang digunakan pada menu menu ini, diantaranya administrasi/
+->master_jawaban_spk_pasang_baru.php
+->form_jawaban_spk_pasang_baru.php
+->detail_jawaban_spk_pasang_baru.php
+->update_alat.php
+->data_spk_pasang_baru.php
+->data_teknisi.php
+->data_barang.php
+->data_marketing.php
+
+fungsi:
+->master_jawaban_spk_pasang_baru.php
+sebagai list jawaban spk yang telah diproses sebelumnya.
+
+->form_jawaban_spk_pasang_baru.php
+untuk melakukan proses jawaban spk baru dan juga untuk update atau edit data jawab spk baru.
+
+->detail_jawaban_spk_pasang_baru.php
+melihat detail data jawab spk baru sesuai denga kode spk
+
+->update_alat.php
+untuk mengedit alat-alat yang akan digunakan pada saat pemasangan baru
+
+->data_spk_pasang_baru.php
+mengambil kode spk pasang yang sudah dibuat sebelumnya atau baru saja dibuat di spk pasang baru
+
+->data_teknisi.php
+mengambil nama tenisi yang akan melakukan pemasangan.

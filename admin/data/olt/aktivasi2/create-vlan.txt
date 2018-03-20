@@ -1,0 +1,10 @@
+show vlan id 2605
+
+VLAN id: 2605, Name: frankie
+Mode: Static, Total Ports: 2
+
+
+Interface       Attributes
+G0/3            Trunk, Tagged
+E0/4            Trunk, Tagged
+OLT-04-BALI_config#
