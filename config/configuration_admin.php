@@ -60,9 +60,9 @@ mysql_select_db(DATABASE_NAME_HELPDESK,$conn_helpdesk) or die ("Could Not Open D
 class Config {
 
     private static $instance_soft = NULL;
-    private static $dsn_soft      = "sqlsrv:Server=10.255.255.2,1433;Database=RBS-SBN;";
-    private static $db_user_soft  = "kevin-read";
-    private static $db_pass_soft  = "kevin-baca";
+    private static $dsn_soft      = "sqlsrv:Server=10.255.255.2,1433;Database=RBS-SBN;"; // dblib:host=172.17.120.37:1433;dbname=RBS-SBN;
+    private static $db_user_soft  = "kevin-read"; // iwedhost
+    private static $db_pass_soft  = "kevin-baca"; // mejotulung
 
     private function __construct() {
 
